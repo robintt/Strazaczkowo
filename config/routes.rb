@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :pins
   devise_for :users
 #zmieniłem ten wiersz na root 'home#index'
 #  get 'home/index'
