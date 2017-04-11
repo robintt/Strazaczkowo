@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   devise_for :users
 #zmieniłem ten wiersz na root 'home#index'
 #  get 'home/index'
-root 'home#index'
+root 'pins#index'
 get 'home/about'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
